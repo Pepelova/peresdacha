@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'pmd'
+ 
 }
 
 repositories {
@@ -9,7 +9,6 @@ repositories {
 
 
 dependencies {
-// https://mvnrepository.com/artifact/net.sourceforge.pmd/pmd-core
-implementation("net.sourceforge.pmd:pmd-core:6.39.0")
+
 
 }
